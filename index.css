@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#8bd4fb, #bf71a5);
+}
+
+.container{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+header .container{
+    justify-content: space-between;
+    border-bottom: 2px solid #c6c6c6;
+    padding-bottom: 20px;
+}
+
+header .container,
+.publisher-section .container .user-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.publisher-section .container{
+    font-weight: 600;
+}    
+
+.publisher-section .avatar{
+    margin: 20px 20px;
+}
+
+span{
+    font-family: "Source Sans 3", sans-serif;
+    display: block;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 0px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.3rem;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.avatar{
+    width: 70px;
+    height: auto;
+    border-radius: 50px;
+    margin: 25px 50px;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.icons{
+    width: 32px;
+    height: auto;
+    margin: 25px 12px 10px 0px;
+}
+
+.btn-data{
+    margin-left: 20px;
+}
+
+.comment, .username{
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.comments{
+    width: 710px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
